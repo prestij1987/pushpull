@@ -1,0 +1,148 @@
+{% load static %}
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Негабаритные перевозки в отдаленные регионы Иркутской области и Якутии">
+    <title>push_pull</title>
+    
+
+    <link rel="stylesheet" href='static/mainpage/css/style_web.css'>
+    <link rel="stylesheet" href="../pushpull/chat/templates/chat/chat.html">
+    
+   
+    <script src="static/mainpage/J_S/main_web.js"></script>
+</head>
+<body>
+
+<div id="main-head" style="max-width: 100%; height: 600px;">
+    <div id="golova">
+                <img class='logotip' src="static/mainpage/image_project/logo.jpg" alt="логотип" >
+                <a href="/"></a>
+    </div>
+    
+
+    <div id="golova">    
+        <h1 class="zagol">"Тяни-толкай" негабаритные перевозки </h1>
+        
+     </div>
+        <!--Заголовок сайта-->
+       
+
+    <form id='search' action="" style="margin-top: 15px;">
+       
+    </div>
+    <form action="">
+        <a class='but_zap' type="submit" value="Получить консультацию" href="/formaotvet"  >Получить консультацию</a>
+    </form>
+</div>
+    <form id='zapros' action="">
+    {% comment %}   
+    СДЕЛАТЬ: Модель, Форму, Сохранение, Отправку в ТГ бот.....
+    var number = 'Введите телефон ';
+    var email = 'Введите почту ';
+function zapros_out() { // Форма обратной связи
+    var num = document.getElementById('zapros');
+  }
+    {% endcomment%}
+       
+    </form>
+    <div id="menu">
+        <li class="menu_list" style="text-decoration: none;">
+            <a href="/">Главная</a>
+            <a href="/uslugi">Услуги</a>            
+            <a href="/park">Парк техники</a>
+            <a href="/otzyvi">Отзывы</a>
+            <a href="/work">Фото работ</a>
+           
+        </li>
+        <hr width="1150px" size="2" color="black" />
+        <p style="text-align: center;"><span style="font-size: 28px;"><span style="font-family: 'Open Sans', sans-serif; font-weight: bold; color: #544c45;"><span style="color: #a30000;">+7(916) 638 93 27 + <span style="background-color: grey;"><a class=" link" href="https://api.whatsapp.com/send?phone=79166389327&amp;text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%20%D0%B7%D0%B0%D0%B8%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BE%D0%B2%D0%B0%D0%BD%D1%8B%20%D0%B2%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B7%D0%BA%D0%B5%20%D0%BD%D0%B0%D1%88%D0%B5%D0%B3%D0%BE%20%D0%B3%D1%80%D1%83%D0%B7%D0%B0%20%D0%B2%D0%B0%D1%88%D0%B5%D0%B9%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B5%D0%B9" target="_blank"><span style="background-color: grey;">WhatsApp&nbsp;</span></a><span style="background-color: #ffffff;">&nbsp;&nbsp;</span></span></span></span><span style="font-family: 'Open Sans', sans-serif; font-weight: bold; color: #544c45;"><span style="color: #000000;"><span style="color: #a30000;"><span style="color: grey;"><a class=" link" href="mailto: push.pull@bk.ru">push.pull@bk.ru</a></span></span></span></span></span></p>
+     <hr width="1150px" size="2" color="black" />
+     <a title="Whatsapp" href="whatsapp://send?phone=89785686308"><img src="./static/image_project/WhatsApp.jpg" alt="Написать в Whatsapp" /></a> 
+       
+     <p><a class="link" href="/zimnik" target="_blank">Перевозка грузов по Дальнему Востоку, Сибири в труднодоступные регионы и по автозимникам Иркутской области, Республики Саха, МАгаданской области и Хабаровскому Краю.
+            <img id="snoska" title="Банер. перевозка по зимникам" src="static/mainpage/image_project/zimnik2.jpg" alt="Банер. перевозка по зимникам" width="1150" height="111">
+            <span class="image-block  caption-not-show" style="margin-right: 20px; float: left; width:800px; margin-top: 5px;">
+
+            </span></a>
+        </p>
+    </div>
+    <div class="calc">
+        <h3>Калькулятор расчета</h3>
+        <input type="text" id="city_1" value="Погрузка">
+        <select name="#" id="way_1">
+        <option>Москва</option>
+        <option>Санкт-Петербург</option>
+        <option>Казань</option>
+        <option>Краснодар</option>
+        </select>
+
+        <input type="text" id="city_2" value="Разгрузка">
+        <select name="#" id="way_2">
+            <option>Санкт-Петербург</option>
+            <option>Москва</option>
+            <option>Казань</option>
+            <option>Краснодар</option>
+            </select>
+        <input type="button" onclick="calc()" value="расчитать">
+        <span id="final_price"></span> рублей
+    </div>
+    <div class="photo-2" style="margin-top: 20px">
+        <img src="static/mainpage/image_project/tral_web3.jpg" alt="картинка " style="width: 575px; height: 300px; margin-right: 5px;"/>
+        <img src="static/mainpage/image_project/tral_web4.jpg" alt="картинка2 " style="width: 575px; height: 300px"/>
+    </div>
+<div style="margin-top: 20px;">
+Негабаритные перевозки - это отдельная категория груза для которого существуют установленные нормы размеров перевозимого груза.
+Если груз по ширине превышает 2,55 метров, по высоте — 4 метра, а длине — 20 метров, то он считается негабаритным.
+Доставка негабаритного груза - это сложный процесс.  Компания «Тяни-Толкай» гарантирует доставку негабаритного груза в установленные сроки, при соблюдении всех правил и нормативов.
+<a href="https://onlinegibdd.ru/articles/view/perevozka-negabarita?ysclid=m2xisj6tbq28906602">Правила перевозки негабаритных грузов</a>
+Самостоятельно перевезти негабаритный груз крайне сложно, так как есть строго регламентированные правила дорожного движения.
+Основной гарантией безопасности являются квалифицированные сотрудники и автомобили прикрытия. Их функция — сопровождение негабаритных грузов и предупреждение других автовладельцев о возможных сложностях на дороге. Необходимость транспорта сопровождения (прикрытия) определяет Госавтоинспекция.
+К негабаритному грузу относится:</div>
+<div class="cont_list">
+    <div class="image_container">
+        <img src="/static/mainpage/image_project/bus_dost.jpg" alt="bus" class="img_bus" style="width: 300px; height: 200px;">
+    </div>
+    <div id="list_text" style="font-size: 23px; font-family: Verdana, Geneva, Tahoma, sans-serif;">  
+        <ul>
+            <li>Различное промышленное и сельхоз оборудование.</li>
+            <li>Спецтехника и строительное оборудование.</li>
+            <li>Резервуары для нефтепеработанных продуктов.</li>
+            <li>Железобетонные и металлические изделия.</li>
+            <li>Строительные изделия и готовые конструкции.</li>
+            <li>Трубопроводы и их элементы.</li>
+        </ul>
+    </div>
+</div>
+Также в ПДД есть пункты, касающиеся непосредственно крупногабаритных грузов. Последние должны быть отмечены специальными знаками таблички должна быть светоотражающей. Сопровождать транспортное средства при перевозке крупногабаритного груза могут две или три машины: одна спереди и одна-две сзади. Каждую обклеивают специализированными наклейками желто-оранжевыми полосами, снабжают маячками и табличками.
+При несоблюдении правил можно получить штраф!
+Если вы хотите узнать цены перевозки негабаритного груза из вашего города до места назначения, а также задать вопросы относительно подготовки и документации, свяжитесь с нашими менеджерами, которые дадут исчерпывающие ответы и рассчитают точную стоимость.
+</div>
+    
+
+    <!-- Контейнер меню -->
+<div class="menu-container">
+    <!-- Список меню -->
+    <ul class="menu-list">
+
+        <footer class="foot">
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+            </div>
+            <ul class="social">
+                <li><a href="v.com/id"><ion-icon name="v-kontakte">89266065857</ion-icon></a></li>
+                <li><a href="telegram.com"><ion-icon name="telegram">89166389327</ion-icon></a></li>
+               
+            </ul>
+            <ul class="menu" style="margin-right: 40px;">
+               
+                <li><a href="hh.ru">Вакансии</a></li>
+                <li><a href="negabarit-1.ru">Партнеры</a></li>
+                <li><a href="https://pkgo.ru/upload/medialibrary/389/389cbdc599874959f4636e50c1f532b4.pdf">Правовая информация</a></li>
+                <li><a href="https://secrets.tinkoff.ru/documents/dogovor-publichnoj-oferty-ob-okazanii-uslug/?ysclid=m3hiwhshzt958898832">Публичная оферта</a></li>
+            </ul>
+            <p>©Все права защищены | Копирование запрещено</p>
+        </footer>
+        
+    </body>        
+  

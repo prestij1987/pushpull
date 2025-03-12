@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выполненные работы</title>
+    <link rel="stylesheet" href='/static/mainpage/css/work.css'>
+    <script src="static/mainpage/J_S/work_slide.js">
+        
+    </script>
+    {% load static %}
+</head>
+<body>
+   
+    {% block content %}
+   
+     <a href="/">Главная</a>    
+    <h1 >Наши выполненные работы</h1>
+    <div class="size">
+        <img src={% static "mainpage/image_project/work/work_foto_1.jpeg" %} alt='работа_1'>
+    </div>
+        
+    <div class="size">
+        <img src={% static "mainpage/image_project/work/work_photo_6.jpg" %} alt="работа_6">
+    </div>
+        
+    <div class="size">
+        <img src={% static "mainpage/image_project/work/work_photo_2.jpeg" %} alt="фото_2">
+    </div>
+
+    <div class="size">
+        <img src={% static "mainpage/image_project/work/work_photo_3.jpeg" %} alt="фото_3">
+    </div>
+
+    <div class="size">
+        <img src={% static "mainpage/image_project/work/work_photo_4.jpeg" %} alt="фото_4">
+    </div>
+    <div class="size">
+        <img src={% static "mainpage/image_project/work/work_photo_5.jpg" %} alt="фото_5">
+    </div>
+
+    <div class="size">
+        <img src={% static "mainpage/image_project/work/work_photo_7.jpeg" %} alt="фото_7">
+    </div>
+
+    <div class="size">
+        <img src={% static "mainpage/image_project/work/work_photo_8.jpeg" %} alt="фото7">
+    </div>
+
+
+    <div class="wrapper">
+        <input type="radio" name="point" id="slide1" checked>
+        <input type="radio" name="point" id="slide2">
+        <input type="radio" name="point" id="slide3">
+        <input type="radio" name="point" id="slide4">
+        <input type="radio" name="point" id="slide5">
+        <div class="slider">
+            <div class="slides slide1"></div>
+            <div class="slides slide2"></div>
+            <div class="slides slide3"></div>
+            <div class="slides slide4"></div>
+            <div class="slides slide5"></div>
+        </div>	
+        <div class="controls">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+            <label for="slide5"></label>
+        </div>
+    </div>
+
+
+
+    <div class="carousel-container">
+        <!--Add Add Preview and Next buttons-->
+        <!--Add Image-->
+    </div>
+      
+    <div class="navigation">
+        <div class="prev nav-btn"><</div>
+        <div class="next nav-btn">></div>
+    </div>
+
+    
+    {% endblock %}
+    
+</body>
+</html>

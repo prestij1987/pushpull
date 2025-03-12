@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/mainpage/css/park.css">
+    {% load static %}
+</head>
+<body>
+    <a href="/">Главная</a>
+    <div class="photo" style="margin-top: 20px">
+        <img id='pic1' src="../static/mainpage/image_project/tral_web.jpg" alt="картинка " style="width: 575px; height: 300px; margin-right: 5px;"/>
+        <img  id='pic2' src="../static/mainpage/image_project/tral_web2.jpg" alt="картинка2 " style="width: 575px; height: 300px"/>
+    </div>
+    <h1>Характеристики техники</h1> 
+    <p>Трал — специальное транспортное средство, предназначенное для перевозки неделимых и негабаритных грузов. Представляет собой прицеп со стандартной или раздвижной платформой, имеющей от двух до восьми осей.
+
+        С помощью трала транспортируется различная строительная, военная и сельскохозтехника, в том числе машины на гусеничном ходу, которым запрещено передвигаться по дорогам общего пользования</p>
+    <div class="size">
+        <div>
+    <h2>Трал грузоподьемностью до 40 тонн </h2>
+    <img src={% static "mainpage/image_project/image_shema/схем_трала_1.jpg" %}>
+        </div>
+        <div>
+    <h2>Трал грузоподьемностью до 100 тонн</h2>
+    <img src={% static "mainpage/image_project/image_shema/Трал 70т схема.jpg" %}>
+        </div>
+    </div>
+       
+</body>
+</html>
